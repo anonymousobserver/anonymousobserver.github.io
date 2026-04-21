@@ -1,0 +1,141 @@
+body {
+    background-color: #323232;
+    color: #e7e7e7;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 2%;
+    min-height: 100vh;
+}
+
+.blog_title {
+    font-size: 3rem;
+}
+
+a:link {
+    color: #ffffff;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+.nav_a:active {
+    color: #ff0000;
+}
+
+.nav_bar {
+    list-style-type: none;
+    margin: 5;
+    padding: 0;
+}
+
+.nav_list {
+    float: left;
+}
+
+.nav_a {
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav_a:hover {
+    color: #ffffff;
+    background-color: #a130f7;
+    text-decoration: underline;
+}
+
+.posts {
+    padding: 14px 16px;
+    color: white;
+    text-underline-offset: 5px;
+}
+
+.post {
+    padding: 14px;
+    text-decoration: none;
+}
+
+.post_date {
+    flex: 1;
+    text-align: right;
+    text-decoration: none;
+}
+
+.post_title {
+    text-align: left;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.post_head {
+    padding: 1%;
+    text-align: center;
+}
+
+.post_brief {
+    flex: 1;
+}
+.footer {
+    position: fixed; 
+    bottom: 0;
+    background-color: #323232;
+    width: 100%;
+}
+.post_content {
+    max-width: 100%;
+    text-align: left;
+    justify-content: center;
+    display: flex;
+    line-height: 2em;
+    align-items: center;
+    flex: 1; 
+    text-align: justify;
+}
+#post_1 {
+  width: 50%;
+  margin: 0 auto;
+  justify-content: center;
+}
+figcaption {
+    text-align: right;
+}
+blockquote {
+	font-weight: 100;
+	font-size: 1.5rem;
+	max-width: 70%;
+	line-height: 2;
+	position: relative;
+	margin-left: 15%;
+	padding: .5rem;
+}
+
+blockquote:before,
+blockquote:after {
+	position: absolute;
+	color: #f1efe6;
+	font-size: 2rem;
+	width: 4rem;
+	height: 4rem;
+}
+
+blockquote:before {
+	content: '“';
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	left: -2rem;
+	top: 0rem;
+}
+
+blockquote:after {
+	content: '”';
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	right: -4.5rem;
+	bottom: -1rem;
+}
+
+cite {
+	line-height: 3;
+	text-align: left;
+}
